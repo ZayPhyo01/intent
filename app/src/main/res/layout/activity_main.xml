@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding ="@dimen/margin_button"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Timer"
+        android:id="@+id/btn_timer"
+        android:layout_marginBottom="@dimen/margin_button"
+        />
+
+    <Button
+        android:id="@+id/btn_calender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calender"
+        android:layout_marginBottom="@dimen/margin_button"
+        />
+
+    <Button
+        android:id="@+id/btn_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Video"
+        android:layout_marginBottom="@dimen/margin_button"
+        />
+
+    <Button
+        android:id="@+id/btn_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        />
+
+    <Button
+        android:id="@+id/btn_browser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Browser"
+        android:layout_marginTop="@dimen/margin_button"
+        />
+
+
+    <VideoView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_button"
+        android:layout_height="wrap_content"
+        android:id="@+id/vv_video"
+        />
+
+
+
+</LinearLayout>
